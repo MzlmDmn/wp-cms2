@@ -1,0 +1,437 @@
+/*
+Theme Name: Thème complet Enfant
+Theme URI: https://pm.webdesign-liege.be/theme-complet.html
+Author: Mazlum DUMAN
+Author URI: https://duman.bes-webdeveloper-seraing.be/
+Description: C'est un thème enfant du thème parent Thème Complet
+Version: 1.0
+Tags: simple, menu, widget, white, grey
+Template: theme-complet
+*/
+
+body{
+	background-color: #fbfbfb;
+	font-family: 'Oswald', sans-serif!important;
+	font-weight: 600;
+}
+
+h1 a{
+	color: #fff;
+}
+
+.clear{
+	clear: both;
+}
+
+#primary{
+	display: none;
+	border: none!important;
+}
+
+
+
+/* Simple page */
+
+#simple-page{
+	font-size: 1.05em;
+}
+
+#simple-page img{
+	border: 4px solid #aaa;
+	margin-right: 10px;
+}
+
+.home-item{
+	float: left;
+	width: 33.3%;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+
+/* Slider */
+
+.flex-control-nav {
+    bottom: -20px!important;
+}
+
+/* */
+
+
+/* Bas de page */
+
+footer{
+	border-top: 3px solid #222;
+	padding: 0;
+	background-color: #333;
+	clear: right;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+#first-footer-widget, #second-footer-widget, #third-footer-widget, #fourth-footer-widget{
+	float: left;
+	width: 22.5%;
+	margin: 10px;
+}
+
+/* Flickr */
+
+.flickr{
+	padding-left: 0;
+}
+
+.flickr img{
+	border: 2px solid #aaa;
+}
+
+
+.contentinfo{
+	clear: both;
+	font-variant: small-caps;
+	color: #fff;
+	margin: 0;
+	background-color: #222;
+}
+
+/* Header */
+
+#content{
+	background-color: #fff;
+	box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+#slogan-title{
+	background-color: #aaa;
+	padding: 8px;
+	min-height: 170px;
+}
+
+#header-logo{
+	float: left;
+	margin-right: 30px;
+}
+
+#header-text{
+	padding-top: 60px;
+}
+
+#header-text h1{
+	font-size: 36px;
+	font-weight: 600;
+	margin: 0;
+}
+
+#header-text h2{
+	font-size: 26px;
+	font-weight: 700;
+}
+
+/* Général */
+
+h2{
+	margin: 0;
+}
+
+#pages h2{
+	background-color: #efefef;
+	height: 24px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	font-size: 24px;
+}
+
+#pages{
+	padding-top: 0;
+	border-right: none;
+}
+
+#simple-page h2{
+	margin-bottom: 5px;
+}
+
+div .center{
+	width: 100%;
+	text-align: center;
+}
+
+.flexslider{
+	margin-bottom: 10px!important;
+}
+
+aside{
+	background: #efefef;
+}
+
+/* Sidebar */
+
+aside h2{
+	color: #5f9ece;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+aside li{
+	font-size: 14px;
+}
+
+aside li:before {
+		color: #E7586C;
+		content: "\2192 \0020";
+}
+
+aside li a{
+	text-decoration: none;
+	color: #000;
+}
+
+aside li a:hover{
+	color: #5f9ece;
+}
+
+aside .footer-profile-info{
+	font-weight: bold;
+	padding-top: 28px;
+	margin-bottom: 20px;
+}
+
+/* Navigation */
+
+nav{
+	padding:5px 5px;
+	border: none!important;
+}
+
+#secondary ul{
+	padding: 0;
+	margin-top: 5px;
+	list-style-type: none;
+}
+
+#secondary ul li{
+	font-size: 18px;
+	display: inline;
+	font-weight: normal;
+	padding: 6px 12px;
+	border-right: 1px dotted #333;
+}
+
+#secondary ul li a{
+	color: #000;
+}
+
+#secondary ul li a:hover{
+	color: #E7586C!important;
+}
+
+.menu-item{
+}
+
+.current-menu-item a{
+	color: #5f9ece!important;
+}
+
+/* Qui sommes-nous */
+
+#qsn{
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	margin-bottom: 60px;
+}
+
+h3{
+		color: #E7586C;
+}
+
+.qsn-col{
+	margin-left: 1.1%;
+	margin-right: 1.1%;
+}
+
+.qsn-col-4{
+	float: left;
+	width: 23%;
+}
+
+.qsn-col p{
+	font-size: 13px;
+}
+
+.qsn-last{
+	margin-right: 0;
+	clear: right;
+}
+
+.qsn-pic{
+	width: 100%;
+	height: auto;
+}
+
+.qsn-social{
+	float: left!important;
+	width:16px;
+	height:16px;
+	margin: 10px 0;
+	margin-right: 13px;
+}
+
+.qsn-right-image{
+	margin-top: -30px;
+	background: url('https://duman.bes-webdeveloper-seraing.be/cms2/wp-content/uploads/2018/01/003.jpg');
+	background-size: cover;
+	background-position: top right;
+	height: 150px;
+	width: 32%;
+	margin-left: 25px;
+	float: right;
+}
+
+.qsn-separator{
+	width: 100%;
+	border-bottom: 2px dotted #efefef;
+	margin: 30px 0;
+}
+
+
+/* Footer */
+
+footer{
+	font-family: Calibri, sans-serif;
+	padding: 0!important;
+	border-top: 10px solid #222;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+footer h2{
+	color: #fff;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin: 25px 0;
+	background-color: #444;
+	height: 8px;
+	line-height: 0.3;
+}
+
+footer h2 span{
+	background-color: #333;
+	padding: 0 3px;
+}
+
+#simple-page h2{
+	font-size: 26px;
+}
+
+.first-letter{
+	float: left;
+	font-size: 3.8em;
+	margin-right: 5px;
+  line-height: 80%;
+	color: #5f9ece;
+	font-family: Times New Roman, serif;
+}
+
+/* Footer Contact Info */
+
+.footer-profile{
+	height: 56px;
+	width: 56px;
+	border: 2px solid #aaa;
+}
+
+.footer-profile-image, .footer-profile-info{
+	float: left;
+	margin-top: 8px;
+}
+
+.footer-profile-info{
+	padding-left: 10px;
+	padding-top: 25px;
+}
+
+#first-footer-widget div > span, .center{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Footer Recents Posts */
+
+.rpwwt-widget a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.rpwwt-widget img{
+	border: 2px solid #aaa;
+}
+
+.rpwwt-widget ul{
+	margin-top: 30px;
+}
+
+.rpwwt-widget ul li{
+	margin-bottom: 0px;
+}
+
+.rpwwt-post-title{
+	font-weight: bold;
+}
+
+.rpwwt-post-author{
+	color: #5f9ece;
+}
+
+/* Footer Content Info */
+
+.contact-info{
+	
+}
+
+.contentinfo{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px 20px;
+	letter-spacing: 0.07em;
+	font-weight: 300!important;
+}
+
+/* Formulaire */
+
+.ninja-forms-req-symbol, .nf-form-fields-required{
+	display: none;
+}
+
+.ninja-forms-field.nf-element{
+	background-color: #efefef;
+	border: none;
+	padding: 10px 0;
+}
+
+.nf-field-label{
+	margin: 10px 0 0 0!important;
+}
+
+.nf-field-container{
+	margin-bottom: 0!important;
+}
+
+.submit-wrap .ninja-forms-field.nf-element{
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: #5f9ece;
+	border: 2px solid #5f9ece;
+	border-radius: 2px;
+}
+
+.submit-wrap .ninja-forms-field.nf-element:hover{
+	background-color: #efefef;
+	color: #5f9ece;
+	border: 2px solid #efefef;
+}
+
